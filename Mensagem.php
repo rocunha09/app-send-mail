@@ -4,6 +4,7 @@
         private $para = NULL;
         private $assunto = NULL;
         private $mensagem = NULL;
+        public $status = array('cod_status' => null, 'desc_status' => '');
 
         public function __get($atributo){
             return $this->$atributo;
