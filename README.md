@@ -48,3 +48,12 @@ Possibilidades de uso para o primeiro parâmetro (**DEBUG_OUTPUT**):
 4. **Informações de baixo nível**: use o nível 3 ou 4 se você não conseguir se conectar.
 
 
+### **IMPORTANTE** - Ajustando as configurações de acesso ao **SMTP do Gmail**
+
+1) Acesse a conta do Gmail utilizada para o envio de e-mails, na sequência clique sobre o ícone de usuário e acesse a opção "Google Account";
+
+2) Em "Google Account" acesse a opção "Security";
+
+3) Na página "Security" procure pela opção "Less secure app access" e clique no link "Turn on access (not recommended)";
+
+4) Ao acessar o link do passo anterior, clique sobre o botão "on/off" para marcar opção "Allow less secure apps" como "ON";
