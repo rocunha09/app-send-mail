@@ -8,7 +8,7 @@ Está sendo realizado uso de **importação manual** da biblioteca como forma de
 1. _Recorte_ a pasta **app-send-mail que contém as bibliotecas e lógica** e _cole_ na **pasta raiz do xampp**.
 2.  _Cole_ a pasta do projeto (app-send-mail que contém os arquivos públicos) na pasta pública do xampp (**htdocs**).
 3. No Arquivo **config-example.php** _apague_ a parte **"-example"** do nome do arquivo, permanecendo apenas: "**config.php**", então abra e insira o **E-mail** que será utilizado pela aplicação, e a **Senha**, e configurações do SMTP do servidor de E-mail que você utiliza. 
-
+---------------------------------------
 Descrição dos parâmetros do arquivo **config.php**:
 
 - Ativa a impressão de debug da execução do script de envio:
@@ -39,6 +39,7 @@ Descrição dos parâmetros do arquivo **config.php**:
 
 `define("EMAIL_PORT", 587); `
 
+---------------------------------------
 Possibilidades de uso para o primeiro parâmetro (**DEBUG_OUTPUT**):
   
 **0 ou FALSE**: **desativará** a depuração, geralmente é usado para produção.
@@ -47,8 +48,8 @@ Possibilidades de uso para o primeiro parâmetro (**DEBUG_OUTPUT**):
 3. **Cliente, servidor e conexão**: irá adicionar informações sobre as informações iniciais, pode ser útil para descobrir falhas STARTTLS.
 4. **Informações de baixo nível**: use o nível 3 ou 4 se você não conseguir se conectar.
 
-
-### **IMPORTANTE** - Ajustando as configurações de acesso ao **SMTP do Gmail**
+---------------------------------------
+### **IMPORTANTE** Ajustando as configurações de acesso ao **SMTP do Gmail**
 
 1) Acesse a conta do Gmail utilizada para o envio de e-mails, na sequência clique sobre o ícone de usuário e acesse a opção "Google Account";
 
